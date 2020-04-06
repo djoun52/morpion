@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif ;
+    font-size: 1.2em;
+}
+
+#wrapper{
+    max-width: 1024px;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-items: start;
+}
+section{
+    flex: 1;
+}
+#joueurU{
+    text-align: center;
+    max-width: 25%;
+    background-color: red;
+}
+#jeux{
+    max-width: 50%;
+}
+#joueurD{
+    text-align: center;
+    max-width: 25%;
+    background-color: blue;
+}
+.case {
+    cursor: pointer;
+}
+.replay {
+    color: red;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+#jeux>div {
+    display: flex;
+    height: 33.3333333333333%;
+}
+#jeux>div div {
+    flex: 1;
+    border: 1px solid black;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5em;
+}
+
+
+
+
+.win {
+    display: none;
+    font-size: 2em;
+    color: green;
+    text-transform: uppercase;
+}
+.tour {
+    margin-top: 3em;
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+  }
+
+  #end {
+    flex: 1;
+  }
+  #winjoueur1, #winjoueur2 {
+    flex: 1;
+    align-content: center;
+  }
+
+  .hide{
+    visibility: hidden;
+  }

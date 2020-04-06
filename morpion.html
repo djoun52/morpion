@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Jeux du morpion</h1>
+        </header>
+        <main>
+            <section id="joueurU">
+                <h2> Joueur 1</h2>
+                <p>Symbole : X</p> 
+                <p class="compteur"></p>
+                <p class="win">Victiore !</p>
+                <p class="tour">C'est au joueur adverse de jouer </p>
+            </section>
+
+            <section id="jeux">
+                <div>
+                    <div class="case"> </div>
+                    <div class="case"></div>
+                    <div class="case"></div>
+                </div>
+                <div>
+                    <div class="case"></div>
+                    <div class="case"></div>
+                    <div class="case"></div>
+                </div>
+                <div>
+                    <div class="case"></div>
+                    <div class="case"></div>
+                    <div class="case"></div>
+                </div>
+            </section>
+
+            <section id="joueurD">
+                <h2> Joueur 2</h2>
+                <p>Symbole : O </p> 
+                <p class="compteur"></p>
+                <p class="win">Victiore !</p>
+                <p class="tour">C'est au joueur adverse de jouer </p>
+                
+            </section>
+       
+        </main>
+
+        <footer>
+            <h1 id="winjoueur1" class="hide">Gagné !</h1>
+            <div id="end" class="hide">
+                <button type="button" name="reboot" onclick="reboot()">Rejouer</button>
+        </footer>
+    </div>
+
+    <script src="morpion.js"></script>
+
+</body>
+
+</html>

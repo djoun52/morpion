@@ -1,2 +1,0 @@
-# morpion
-exo jeux morpion

@@ -37,7 +37,10 @@ html, body {
     width: 2em;
     height: 2em;
     border: 1px black solid;
-
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center
 }
 
 p{
